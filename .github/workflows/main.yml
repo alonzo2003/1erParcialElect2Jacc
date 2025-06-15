@@ -17,7 +17,7 @@ jobs:
       run: |
         # Configurar Surge.sh
         npm install --global surge
-        surge token  d84db76b37365beac8a36dc883470118 # Reemplazar <SURGE_API_KEY> con la API Key de Surge de cada estudiante
+        surge token  d692188377444923d58fdb5aea3d0e10 # Reemplazar <SURGE_API_KEY> con la API Key de Surge de cada estudiante
 
         # Desplegar en Surge.sh
         surge --project ./ --domain ci-demo.surge.sh.surge.sh # Reemplazar <SURGE_SUBDOMAIN> con un subdominio único para cada estudiante
