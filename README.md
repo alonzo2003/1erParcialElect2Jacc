@@ -1,1 +1,0 @@
-# 1erParcialElect2Jacc
